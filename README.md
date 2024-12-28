@@ -48,6 +48,6 @@ npm  i
 ```
 y ejecutar el comando, para inicializar el proyecto: 
 ```bash
-npm run serve
+npm run dev
 ```
 Finalmente, para visualizar el proyecto en tu navegador debes abrir la url http://localhost:3000/ 
