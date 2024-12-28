@@ -15,8 +15,8 @@ en esta actividad se implementa el manejo del DOM virtual, el uso de referencias
   - contact: contiene la pantalla asociada al formulario de contacto.
   - home: pantalla principal del sitio, aqui, se listan los servicios ofrecidos por la clinica, llamando al componente ServiceList.
   - services: presenta información asociada al equipo medico de la clinica, llamando al componente DoctorCard.
-  - Register: presenta un listado con todas las citas medicas registradas.
-  - Appointments: contiene el formulario que permite agendar una cita medica, llamando al componente AppointmentForm.
+  - RegisterAppointment: presenta un listado con todas las citas medicas registradas.
+  - Appointment: contiene el formulario que permite agendar una cita medica, llamando al componente AppointmentForm.
 
 ### Manejo del DOM Virtual en ReactJS
 
