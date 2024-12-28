@@ -19,6 +19,7 @@ en esta actividad se implementa el manejo del DOM virtual, el uso de referencias
   - Appointment: contiene el formulario que permite agendar una cita medica, llamando al componente AppointmentForm.
 
 ### Manejo del DOM Virtual en ReactJS
+El uso de DOM virtual, consiste en una representación del DOM almacenada en memoria, la cual, se sincroniza con el DOM real, de tal forma que cuendo ocurre un cambio en la aplicación web, el virtual DOM interpreta dichos cambios y calcula la manera más eficiente de actualizar el DOM para que renderice la menor cantidad de cambios posibles, con el objetivo de ahorrar recursos de procesamiento y brindar una experiencia de usuario más fluida en nuestras aplicaciones web. Esto, lo convierte en una de las principales ventajas y caracteristicas de React.
 A lo largo de las secciones del sitio web se utiliza useEffect para gestionar la actualización del DOM al cargar los datos.
 ### Referencias
 se crean referencias en la seccion **Contacto** para manejar el formulario y se implementa el boton volver al inicio, el cual al ser presionado por un usuario, pone el foco en el primer input del formulario.
